@@ -78,7 +78,6 @@ export default function App() {
             exit="exit"
             className="w-full max-w-xl bg-white shadow-2xl rounded-2xl p-8"
           >
-            {/* чекбокс случайного числа */}
             <label className="flex items-center gap-3 text-gray-700 text-base mb-6">
               <input
                 type="checkbox"
@@ -89,7 +88,6 @@ export default function App() {
               Использовать случайное число
             </label>
 
-            {/* поле ввода числа */}
             {!isRandom && (
               <div className="flex flex-col mb-6">
                 <label className="text-gray-700 font-medium mb-1">
@@ -105,7 +103,6 @@ export default function App() {
               </div>
             )}
 
-            {/* выбор типа факта */}
             <div className="flex flex-col mb-6">
               <label className="text-gray-700 font-medium mb-1">
                 Выберите тип факта:
@@ -121,7 +118,6 @@ export default function App() {
               </select>
             </div>
 
-            {/* сообщение об ошибке */}
             {error && (
               <motion.div
                 initial={{ opacity: 0 }}
