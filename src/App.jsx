@@ -128,7 +128,6 @@ export default function App() {
               </motion.div>
             )}
 
-            {/* кнопка */}
             <motion.button
               onClick={fetchNumberFact}
               whileTap={{ scale: 0.95 }}
